@@ -1,14 +1,15 @@
 {
     "manifest_version": 2,
     "name": "Multi-Search",
-    "description": "Search for multiple keywords at once",
+    "description": "Search for multiple keywords on the current site",
     "version": "1.0",
     "browser_action": {
       "default_popup": "popup.html",
       "default_icon": "icon.png"
     },
     "permissions": [
-      "tabs"
+      "activeTab",
+      "https://ostoskatu.com/*"
     ]
   }
   
